@@ -1,0 +1,5 @@
+Endpoint Method Purpose
+/birds POST Send detected bird data to the backend
+/birds GET Retrieve all bird detection records
+/birds/latest GET Retrieve the most recent bird detection
+/birds/:date GET Retrieve bird detections for a specific date
